@@ -1,19 +1,19 @@
 # Tokyo Night Preset
 
-This preset is inspired by [tokyo-night-vscode-theme](https://github.com/enkia/tokyo-night-vscode-theme).
+This preset is inspired by [tokyo-night-vscode-theme](https://github.com/enkia/tokyo-night-vscode-theme) with the addition of automatic system icon switching.
 
-![Screenshot of Tokyo Night preset](/presets/img/tokyo-night.png)
+![Screenshot of Tokyo Night preset](https://starship.rs/presets/img/tokyo-night.png)
 
 ### Prerequisites
 
-- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal
+- A [Nerd Font](https://www.nerdfonts.com/) (preferably [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip)), installed and enabled in your terminal.
 
 ### Configuration
 
 ```sh
-starship preset tokyo-night -o ~/.config/starship.toml
+git clone https://github.com/brenosf1/Tokyo-Night-Preset.git
+cd \Tokyo-Night-Preset
+cp starship.toml ~/.config
 ```
 
-[Click to download TOML](/presets/toml/tokyo-night.toml){download}
-
-<<< @/public/presets/toml/tokyo-night.toml
+[Click to download TOML](https://github.com/brenosf1/Tokyo-Night-Preset/blob/main/starship.toml)
